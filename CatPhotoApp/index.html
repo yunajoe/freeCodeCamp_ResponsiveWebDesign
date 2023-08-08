@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- 크게 Cat Photos, Cat Lists, Cat Form  section이 있다-->
+  <body>
+    <h1>CatPhotoApp</h1>
+    <section>
+      <h2>Cat Photos</h2>
+      <p>
+        See more <a href="https://www.freecatphotoapp.com/">cat photos</a> in
+        our gallery
+      </p>
+      <img
+        src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+        alt="고양이사진"
+      />
+    </section>
+    <section>
+      <h2>Cat Lists</h2>
+      <b>Things cats love</b>
+      <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+      </ul>
+      <div>
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+          alt="라쟈냐"
+        />
+        <br />
+        <p>Cats <em>love</em> lasagna</p>
+      </div>
+      <ol type="1">
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+      </ol>
+      <div>
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+          alt="고양이들"
+        />
+        <br />
+      </div>
+    </section>
+    <section>
+      <h2>Cat Form</h2>
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <!-- 라디오버튼 >> 라디오버튼은 여러개중 하나만 선택 가능-->
+        <filedset>
+          <!-- legend 태그는 fieldset 태그 내에서 사용되야 하며 그룹화된 fieldset의 제목을 정의 -->
+          <legend>Is your cat an indoor or outdoor cat?</legend>
+          <!-- name을 같게 해줘야 하나만 선택이 된다. -->
+          <label
+            ><input
+              id="indoor"
+              type="radio"
+              name="indoor-outdoor"
+              value="checked"
+              checked
+            />Indoor</label
+          >
+          <label
+            ><input
+              id="outdoor"
+              type="radio"
+              name="indoor-outdoor"
+              value="checked"
+            />Outdoor</label
+          >
+        </filedset>
+        <br />
+        <!-- 체크박스 >> 체크박스는 여러개 선택 가능-->
+        <filedset>
+          <legend>What's your cat's personality</legend>
+          <input
+            type="checkbox"
+            id="loving"
+            name="personality"
+            value="loving"
+            checked
+          /><label for="loving">Loving</label>
+          <input
+            type="checkbox"
+            id="lazy"
+            name="personality"
+            value="lazy"
+          /><label for="lazy">Lazy</label>
+          <input
+            type="checkbox"
+            id="energetic"
+            name="personality"
+            value="energetic"
+          /><label for="energetic">Energetic</label>
+        </filedset>
+      </form>
+      <button type="submit">submit</button>
+    </section>
+  </body>
+  <footer>
+    <p>
+      No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+    </p>
+  </footer>
+</html>
