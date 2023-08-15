@@ -1,0 +1,42 @@
+# 배경색상: burlywood;
+# 배경이미지 URL
+https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg
+# COFFEE (h2태그)아래에 
+  <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+
+# Dessert (h2태그)아래에 
+      <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+# section, article 태그 정확히 알기
+<section> 태그는
+-  HTML 문서에 포함된 독립적인 섹션(section)을 정의
+-  보통 제목 요소(h1~h6)를 자식 요소로 포함하고 있는 경우
+-  block요소이다
+
+<article> 태그
+- 해당 문서나 페이지 또는 사이트와는 완전히 독립적으로 구성할 수 있는 요소를 정의할 때 사용
+- block요소이다
+- 포럼(forum) 포스트
+
+- 블로그 포스트
+
+- 보도 기사
+
+- 논평(comment) 등
+
+body태그의font-family는   font-family: sans-serif;
+
+h1, h2 font-family는 Impace , sans-serif
+
+===========================================================
+
+
+h1  font-size: 40px 
+h2 font-size: 30px
+
+// footer 
+
+font-size: 14px
+
+a: visited할때 color: grey
+a: hover할떄 color: brown
+a: active할때 color:white
